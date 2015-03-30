@@ -1,4 +1,4 @@
-browscap-laravel
+Browscap Parsing Class for Laravel 4
 ================
 [![Build Status](https://travis-ci.org/codypchristian/browscap-laravel.svg?branch=master)](https://travis-ci.org/codypchristian/browscap-laravel)
 [![Total Downloads](https://poser.pugx.org/codypchristian/browscap-laravel/downloads.png)](https://packagist.org/packages/codypchristian/browscap-laravel)
@@ -7,7 +7,17 @@ browscap-laravel
 Browscap-PHP integration (Service Provider and Facade) for Laravel 4
 
 Originally based off (https://github.com/trampish/browscap-laravel)
-Uses: "crossjoin/browscap": "1.0.*" instead of "browscap/browscap-php": "2.0.*"
+
+Origins
+--------------
+Uses:
+```
+"crossjoin/browscap": "1.0.*"
+```
+Instead of:
+```
+"browscap/browscap-php": "2.0.*"
+```
 
 Stable Version
 --------------
