@@ -1,0 +1,24 @@
+{
+    "name": "codypchristian/browscap-laravel",
+    "description": "Browscap integration (Service Provider and Facade) for Laravel 4",
+    "keywords": ["browscap", "browscap-php", "laravel"],
+    "homepage": "https://github.com/codypchristian/browscap-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cody P Christian",
+            "email": "cody@codypchristian.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "4.2.*",
+        "crossjoin/browscap": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "codypchristian\\browscap\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
