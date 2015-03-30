@@ -21,7 +21,7 @@ Instead of:
 
 Stable Version
 --------------
-v1.0.0
+v1.0.1
 
 Installation
 ------------
@@ -35,10 +35,10 @@ Then run `composer update`.
 
 Then add the following in app/config/app.php to the service providers array:
 ```php
-'codypchristian\Browscap\BrowscapServiceProvider',
+'CodyPChristian\Browscap\BrowscapServiceProvider',
 ```
 
 And add to the aliases array the following:
 ```php
-'Browscap' => 'codypchristian\Browscap\BrowscapFacade',
+'Browscap' => 'CodyPChristian\Browscap\Facades\Browscap',
 ```
