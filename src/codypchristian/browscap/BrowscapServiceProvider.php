@@ -1,5 +1,5 @@
 <?php
-namespace codypchristian\Browscap;
+namespace CodyPChristian\Browscap;
 
 use Crossjoin\Browscap\Browscap;
 use Illuminate\Support\ServiceProvider;
@@ -40,9 +40,7 @@ class BrowscapServiceProvider extends ServiceProvider
         
         $this->app['browscap'] = $this->app->share(function ($app) {
             
-            $bc = new Browscap();
-            
-            return $bc;
+            return new Browscap();
         });
     }
     
@@ -54,6 +52,6 @@ class BrowscapServiceProvider extends ServiceProvider
     
     public function provides() {
         
-        return ['browscap'];
+        return array('browscap');
     }
 }
